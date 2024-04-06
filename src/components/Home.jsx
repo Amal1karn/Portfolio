@@ -9,20 +9,17 @@ const Home = () => {
     via-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row'>
-            <div className="flex flex-col justify center h-full">
-                <h2 className='text-4xl sm:text-5xl font-bold text-white'>
+            <div className='flex flex-col justify-center h-full'>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     I am a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Officia earum, eaque dignissimos, officiis iure debitis 
-                    recusandae sit velit incidunt porro illum mollitia! Repellat 
-                    architecto nobis autem. Incidunt praesentium molestiae cumque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laboriosam?
                 </p>
                 <div>
-                    <button className='group text-white w-fit px-6 py-3 my-3
+                    <button className='group text-white w-fit px-6 py-3 my-2
                     flex items-center rounded-md bg-gradient-to-r 
-                    from-cyan-50 to-blue-500 cursor-pointer'>
+                    from-cyan-500 to-blue-500 cursor-pointer'>
                         Protfolio  
                         <span className='group-hover:rotate-90 duration-300'>
                             
@@ -35,8 +32,8 @@ const Home = () => {
                 
             </div>
             <div>
-                <img src={Codeo} alt="home image"
-                className='rounded-3xl mx-auto w-2/3 md:w-full'/>
+                <img src={Codeo} alt="pic"
+                className='rounded-2xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
     </div>
