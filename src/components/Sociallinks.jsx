@@ -47,7 +47,7 @@ const Sociallinks = () => {
         </>
         ),
         href: '/CV.pdf ',
-        style: 'rounded-tr-md',
+        style: 'rounded-br-md',
         download: true,
     
     }
